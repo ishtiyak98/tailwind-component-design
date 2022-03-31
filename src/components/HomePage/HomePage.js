@@ -5,16 +5,17 @@ import comingSoon from "../../images/coming_soon.JPG";
 
 const HomePage = () => {
   return (
-    <div className="font-mono px-28">
+    <div className="font-mono px-12 lg:px-28">
       <div className="my-12">
         <h1 className="text-center text-4xl font-semibold text-slate-700">
           All My Component Page Design
         </h1>
       </div>
 
-      <div className="grid gap-16 md:grid-cols-2 lg:grid-cols-3">
+      <div className="max-w-[1300px] mx-auto grid gap-20 justify-items-center md:grid-cols-2 lg:grid-cols-3">
+
         <Link to={"/error-page"}>
-          <div className="shadow-md rounded-lg p-4 bg-slate-100 transition ease-in duration-150 hover:scale-105">
+          <div className="max-w-[400px] shadow-md rounded-lg p-4 bg-slate-100 transition ease-in duration-150 hover:scale-105">
             <div className="h-[180px]">
               <img className="rounded-lg h-full w-full" src={thumbError} alt="" />
             </div>
@@ -27,7 +28,7 @@ const HomePage = () => {
         </Link>
 
         <Link to={"/"}>
-          <div className="shadow-md rounded-lg p-4 bg-slate-100 transition ease-in duration-150 hover:scale-105">
+          <div className="max-w-[400px] shadow-md rounded-lg p-4 bg-slate-100 transition ease-in duration-150 hover:scale-105">
             <div className="h-[180px]">
               <img className="rounded-lg h-full w-full" src={comingSoon} alt="" />
             </div>
@@ -40,7 +41,7 @@ const HomePage = () => {
         </Link>
 
         <Link to={"/"}>
-          <div className="shadow-md rounded-lg p-4 bg-slate-100 transition ease-in duration-150 hover:scale-105">
+          <div className="max-w-[400px] shadow-md rounded-lg p-4 bg-slate-100 transition ease-in duration-150 hover:scale-105">
             <div className="h-[180px]">
               <img className="rounded-lg h-full w-full" src={comingSoon} alt="" />
             </div>
