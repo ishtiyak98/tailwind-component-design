@@ -27,7 +27,7 @@ const HomePage = () => {
           </div>
         </Link>
 
-        <Link to={"/"}>
+        <Link to={"/navbar"}>
           <div className="max-w-[400px] shadow-md rounded-lg p-4 bg-slate-100 transition ease-in duration-150 hover:scale-105">
             <div className="h-[180px]">
               <img className="rounded-lg h-full w-full" src={comingSoon} alt="" />
