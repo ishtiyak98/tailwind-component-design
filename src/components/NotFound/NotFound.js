@@ -5,7 +5,7 @@ import errorImg from "../../images/404_error.png";
 const NotFound = () => {
   return (
     <div className="max-w-[1400px] mx-auto">
-      <div className="font-mono my-5 grid justify-items-center content-center h-screen items-center grid-cols-1 text-center lg:grid-cols-2 lg:text-left xl:grid-cols-2 ">
+      <div className="font-mono grid justify-items-center content-center h-screen items-center grid-cols-1 text-center lg:grid-cols-2 lg:text-left xl:grid-cols-2 ">
         <div className="px-5">
           <img
             className="max-w-[320px] sm:max-w-[450px] lg:max-w-[550px]"
